@@ -1,6 +1,8 @@
 # QLI-Client running under ZLUDA
 
-This Dockerfile and run script are all you need to run QLI-Client under ZLUDA for AMD GPUs. This image also supports CPU only and Nvidia GPUs, however is not space efficient for this purpose.
+***This project is currently non-functional. Qli-runner does not currently function when running under ZLUDA"***
+
+This Dockerfile and run script are all you need to run QLI-Client under ZLUDA for AMD GPUs. This image also supports CPU mining in parellel, however is not space efficient for only CPU mining. For alternative containers, see the [Qli-Client](https://github.com/BlockBlitz/qli-client-docker) image for CPU only mining or [Qli-Cuda](https://github.com/BlockBlitz/qli-cuda-docker) image for Nvidia GPU mining. 
 
 ***This project is not affiliated with [Qubic](http://discord.gg/qubic) or [Qubic.li](https://qubic.li/). Please report any bugs related to the docker container here and miner specific bugs to the respective miner owners.***
 
