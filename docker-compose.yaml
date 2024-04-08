@@ -1,5 +1,5 @@
 services:
-  qli-zulda:
+  qli-zluda:
     image: ghcr.io/blockblitz/qli-zluda:1.9.0
     restart: unless-stopped
     group_add:
