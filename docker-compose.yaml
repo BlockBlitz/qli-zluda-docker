@@ -1,0 +1,17 @@
+services:
+  qli-zulda:
+    image: ghcr.io/blockblitz/qli-zluda:1.9.0
+    restart: unless-stopped
+    group_add:
+      - 985 # video
+    security_opt:
+      - seccomp=unconfined
+    devices:
+      - /dev/kfd
+      - /dev/dri
+    environment: 
+      THREAD_COUNT: 12 
+      ACCESS_TOKEN: my-access-token
+      WORKER_NAME: my-worker
+      USE_GPU: true
+      USE_ZLUDA: true
